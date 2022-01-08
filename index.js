@@ -17,7 +17,7 @@ function twitterCounter() {
     twitterCount.innerHTML = twitter
 }
 
-setInterval(twitterCounter, 2)
+setInterval(twitterCounter, 16)
 
 function youtubeCounter() {
     if ( youtube > 303){
@@ -29,7 +29,7 @@ function youtubeCounter() {
      youtubeCount.innerHTML = youtube
  }
  
- setInterval(youtubeCounter, 1.5)
+ setInterval(youtubeCounter, 12)
 
  function instaCounter() {
     if ( insta > 401){
@@ -41,9 +41,12 @@ function youtubeCounter() {
      instaCount.innerHTML = insta
  }
  
- setInterval(instaCounter, 1)
+ setInterval(instaCounter, 8)
     
 
+
+ 
+        
 
  
         
